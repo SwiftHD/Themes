@@ -1,6 +1,4 @@
-//META{"name":"Rick_and Morty","description":"Wubba Lubba Dub Dub! ;)","author":"SwiftHD","version":"1"}*//
-
-
+//META{"name":"Rick And Morty","description":"Rick and morty theme ;)!","author":"SwiftHD","version":"1"}*//
 
 
 #app-mount,
@@ -39,17 +37,17 @@
 .messages-wrapper + form {
   box-shadow: none !important;
 }
-
 /* Background */
+
 .app {
     background-image: url(https://i.imgur.com/OK6Lo4j.jpg) !important;
     background-size: 1500px 900px !important;
     background-position: center;
-	opacity:1 !important;
+
 
 }
 .callout-backdrop {
-    opacity:1 !important;
+
     background-image: url(https://i.imgur.com/OK6Lo4j.jpg);
     background-size: 1500px 900px;
     background-position: center;
@@ -60,11 +58,6 @@
 }
 
 .tab-bar.TOP {border-bottom: 0px !important;}
-
-.titleBar-3_fDwJ, .appMount-14L89u {
-background-color: rgb(159, 0, 0)
-
-}
 
 .theme-dark .chat form .typing {
     background-color: transparent;
