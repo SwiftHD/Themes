@@ -1,8 +1,46 @@
 //META{"name":"Rick_and Morty","description":"Wubba Lubba Dub Dub! ;)","author":"SwiftHD","version":"1"}*//
 
-  @import url("https://rawgit.com/intrnl/9f623d1a89e416d2fe4f1a3aca721653/raw/oct17_transparencyfix.css");
-/* Background */
 
+
+
+#app-mount,
+#friends,
+.app .layers .layer,
+.app .layers .layer>[class*='container-'],
+.app .layers,
+.content-region,
+.guilds-wrapper,
+.sidebar-region,
+.ui-standard-sidebar-view,
+[class*='activityFeed-'],
+[class*='channels-'],
+[class*='titleBar-']
+{
+  /* Too dark or too bright? Adjust the opacity (`0.15`) to something lower or higher */
+  background: rgba(0,0,0,0.15) !important;
+}
+
+#friends .friends-table,
+.channel-members,
+.channel-members-loading,
+.chat .content,
+.chat form,
+.chat,
+.content .flex-spacer,
+.messages-wrapper,
+.typing,
+[class*='channels-'] [class*="container-"],
+[class*='headerBar-'],
+[class*='titleWrapper-'] [class*='title-']
+{
+  background: transparent !important;
+}
+
+.messages-wrapper + form {
+  box-shadow: none !important;
+}
+
+/* Background */
 .app {
     background-image: url(https://i.imgur.com/OK6Lo4j.jpg) !important;
     background-size: 1500px 900px !important;
