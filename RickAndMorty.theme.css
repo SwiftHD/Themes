@@ -1,4 +1,4 @@
-//META{"name":"Rick And Morty","description":"Rick and morty theme ;)!","author":"SwiftHD","version":"1"}*//
+//META{"name":"Rick And Mortyy","description":"Rick and Morty theme.","author":"SwiftHD","version":"1.0"}*//
 
 
 #app-mount,
@@ -41,16 +41,16 @@
 
 .app {
     background-image: url(https://i.imgur.com/OK6Lo4j.jpg) !important;
-    background-size: 1500px 900px !important;
-    background-position: center;
+    background-size: 1366px 747px;
+    background-repeat: no-repeat;
 
 
 }
 .callout-backdrop {
-
-    background-image: url(https://i.imgur.com/OK6Lo4j.jpg);
-    background-size: 1500px 900px;
-    background-position: center;
+    opacity:0.9 !important;
+    background: url(https://i.imgur.com/OK6Lo4j.jpg);
+    background-size: 1366px 747px;
+    background-repeat: no-repeat;
 }
 
 .layer, .layers, .search-header {
