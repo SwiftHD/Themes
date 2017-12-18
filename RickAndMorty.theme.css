@@ -136,6 +136,29 @@
 
 .chat .private-channel-call {background-color: #121212 !important;}
 
+
+.side-2nYO0F .separator-3z7STW {
+	background-color: #9f0000
+}
+
+#bd-settings-sidebar .ui-tab-bar-item:hover{background-color: #9f0000}
+#bd-settings-sidebar .ui-tab-bar-item.selected{background-color: #9f0000}
+#bd-settings-sidebar .ui-tab-bar-separator{background-color: #9f0000}
+
+.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+    background-color: rgba(159, 0, 0, 0.77)!important;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: rgba(159, 0, 0, 0.68);
+}
+.theme-dark .side-2nYO0F .itemDefault-3NDwnY:hover, .side-2nYO0F .itemSelected-3XxAMf, .theme-dark .side-2nYO0F .itemHover-3rojsB:hover{
+	background-color: #9f0000
+}	
+.side-2nYO0F .item-3879bf:hover{
+	background-color: #9f0000
+}
+
 .container-iksrDt .button-1aU9q1,
 .container-iksrDt .button-1aU9q1:hover {
 	border-radius: 30px;
